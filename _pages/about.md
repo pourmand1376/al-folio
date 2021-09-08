@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Master of science student at <a href="http://www.sharif.edu/" target="_blank">Sharif University of Technology</a>
+description: MSc student in AI at <a href="http://www.sharif.edu/" target="_blank">Sharif University of Technology</a>
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi, 
 
-I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing my masters in `AI & Robotics` at Sharif University of Technology under supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/){:target="\_blank"}. 
+I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing my master's degres in `AI & Robotics` at Sharif University of Technology under supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/){:target="\_blank"}. 
 
 As a member of `Digital Media Laboratory`, I'm working on "automatic realtime polyp detection and clasification using XAI". 
 
