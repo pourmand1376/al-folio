@@ -57,7 +57,7 @@ twitter_username: AmirPourmand76
 linkedin_username: amir-pourmand
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: pourmand1376
+medium_username:
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: Amir_Pourmand # your profile on ResearchGate
@@ -81,7 +81,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: My Blog  # your blog must have a name for it to show up in the nav bar
-blog_description: A place to share my thoughts
+blog_description: A place to share my thoughts (<a href="https://virgool.io/@pourmand1376" target="_blank">Farsi Blog</a>) 
 permalink: /blog/:year/:title/
 
 # Pagination
