@@ -17,7 +17,7 @@ footer_text: >
 icon: /assets/img/favicon.ico # the emoji used as the favicon
 use_custom_favicon: true # if this is true, you can set favicon path instead of using default emoji
 
-url:  # the base hostname & protocol for your site
+url: pourmand1376.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -141,6 +141,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-email-protect
+  - jekyll-target-blank
   - jekyll-github-metadata
   - jekyll-feed
   - jekyll-paginate-v2
@@ -148,6 +149,7 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-sitemap
   - jemoji
+  
 
 # Extras
 github: [metadata]
