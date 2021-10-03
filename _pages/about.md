@@ -25,6 +25,8 @@ As a member of `Digital Media Laboratory`, I'm working on "automatic, real-time 
 
 I've also studied computer engineering at [Yazd University](https://yazd.ac.ir/en). 
 
-I've worked as a `software developer` in Amapardazesh company from ... to ... . That's why I know a lot about clean coding, software architectures, and excellent tools like git, which I use daily.  
+I've worked as a `software developer` in Amapardazesh company from 2016 to 2020 . That's why I know a lot about clean coding, software architectures, and excellent tools like git, which I use daily.  
 
-I prefer to use GNU-Linux OSes like Manjaro (Arch Linux)  or Kubuntu (KDE + Ubuntu) for my daily usage. I love [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) and this is the main reason I migrated from Windows to GNU-Linux. I'd love to call myself a `computer geek`. 
+I prefer to use GNU-Linux OSes like Manjaro (Arch Linux)  or Kubuntu (KDE + Ubuntu) for my daily usage. I love [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software), and this is the main reason I migrated from Windows to GNU-Linux. I'd love to call myself a `computer geek`. 
+
+Speaking of personality, I've taken the `MBTI` test. First, I was recognized as [Logician](https://www.16personalities.com/intp-personality), but after a few months, I tested again, and I was categorized as [Architect](https://www.16personalities.com/intj-personality).  Both of them are to some extent correct. 
