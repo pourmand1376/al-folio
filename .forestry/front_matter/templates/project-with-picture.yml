@@ -1,0 +1,22 @@
+---
+label: Project with Picture
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: img
+  label: img
+- type: number
+  name: importance
+  label: importance
+- type: text
+  name: category
+  label: category
