@@ -23,7 +23,7 @@ I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing m
 
 As a member of `Digital Media Laboratory`, I'm working on "automatic, real-time polyp detection and classification using XAI".
 
-In Aug 2020, I was ranked **1st** among over 16,000 graduate applicants in the Iranian National University Entrance Exam for M.Sc. of Computer Engineering **in 7 (all CE) majors** (this rank is unprecedented in the history of CE University entrance exam). Afterward, In February 2021, I got **Silver Medal** in the 25th Scientific Olympiads for Iranian University Students.
+In Aug 2020, I was ranked **1st** among over 16,000 graduate applicants in the Iranian National University Entrance Exam for M.Sc. of Computer Engineering **in 7 (all CE) majors** (this rank is unprecedented in the history of CE University entrance exam) [(My Experiences)](https://vrgl.ir/9yfB2). Afterward, In February 2021, I got **Silver Medal** in the 25th Scientific Olympiads for Iranian University Students [(My experiences)](https://vrgl.ir/1Fdhk).
 
 I've also studied computer engineering at [Yazd University](https://yazd.ac.ir/en). 
 
