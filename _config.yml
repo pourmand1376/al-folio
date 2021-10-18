@@ -68,6 +68,8 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: 4201765
 
+rss_icon: true
+
 contact_note: >
   Feel free to drop me a line via my primary email <a href="mailto:pourmand1376@gmail.com" target="_blank">pourmand1376@gmail.com</a> or my academic email 
   <a href="mailto:pourmand@ce.sharif.edu" target="_blank">pourmand@ce.sharif.edu</a>
@@ -140,14 +142,15 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll/scholar
+  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-target-blank
   - jekyll-github-metadata
   - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll/scholar
-  - jekyll-twitter-plugin
   - jekyll-sitemap
+  - jekyll-twitter-plugin
   - jemoji
   
 
@@ -182,6 +185,14 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
