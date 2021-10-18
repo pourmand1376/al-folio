@@ -10,9 +10,13 @@ These are mostly the websites bookmarked in my browser. I thought they could be 
 
 ## For Researchers
 
+[Distill.pub](https://distill.pub/)
+
+An excellent site for Machine Learning researchers. Maybe the best explanation is what its creators say, "[Distill ](https://distill.pub/)is dedicated to clear explanations of machine learning."
+
 [Connected Papers](http://connectedpapers.com "Connected Papers")
 
-This is an excellent tool for researchers, especially when finding review articles. All you need to do is enter the paper's title, and the site shows a beautiful graph of connected papers, as the name suggests!
+An excellent tool for researchers, especially when finding review articles. All you need to do is enter the paper's title, and the site shows a beautiful graph of connected papers, as the name suggests!
 
 [Papers with code](https://paperswithcode.com)
 
@@ -20,15 +24,15 @@ Browsing state-of-the-art (SOTA) in machine learning
 
 [MathPix](https://mathpix.com/)
 
+An incredible tool for converting math formulas in Image and PDF to Latex
+
 [ML Story](https://mlstory.org/)
+
+An intuitive explanation of Machine learning for starters.
 
 [Online Mathematics Editor](https://www.mathcha.io/)
 
 A fast way to write and share mathematics, especially when you don't have access to LATEX
-
-[Distill.pub](https://distill.pub/)
-
-An excellent site for Machine Learning researchers 
 
 ## Tools
 
