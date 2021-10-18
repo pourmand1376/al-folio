@@ -83,7 +83,7 @@ panelbear_analytics: GYYavLkyYFV # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: My Blog  # your blog must have a name for it to show up in the nav bar
-blog_description: A place to share my thoughts (<a href="https://virgool.io/@pourmand1376" target="_blank">Farsi Blog</a>) 
+blog_description: A place to share my thoughts (<a href="https://virgool.io/@pourmand1376">Farsi Blog</a>)
 permalink: /blog/:year/:title/
 
 # Pagination
