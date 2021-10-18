@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  Most Useful Sites 
-date: 2021-09-17 23:00:00
+title: Most Useful Sites
+date: 2021-09-17T23:00:00.000+00:00
 description: Here is a list of websites which I think are great
 comments: true
----
 
-These are mostly the websites bookmarked in my browser. I thought they could be useful to others. So I made this.
+---
+These are mostly the websites bookmarked in my browser. I thought they could be helpful to others. So I made this.
 
 ## For Researchers
 
-[Connected Papers](http://connectedpapers.com)
+[Connected Papers](http://connectedpapers.com "Connected Papers")
 
-This is an excellent tool for researchers, especially when finding review articles. All you need to do is to enter the paper's title, and the site shows a beautiful graph of connected papers, as the name suggests!
+This is an excellent tool for researchers, especially when finding review articles. All you need to do is enter the paper's title, and the site shows a beautiful graph of connected papers, as the name suggests!
 
 [Papers with code](https://paperswithcode.com)
 
@@ -26,13 +26,17 @@ Browsing state-of-the-art (SOTA) in machine learning
 
 A fast way to write and share mathematics, especially when you don't have access to LATEX
 
+[Distill.pub](https://distill.pub/)
+
+An excellent site for Machine Learning researchers 
+
 ## Tools
 
 [Advanced Photo Editor](https://photopea.com)
 
 Photoshop-like software for editing purposes. I think It is a fantastic alternative for someone like me who, you know, edits photos once a year! If you want something to use daily, I would recommend [Krita](https://krita.org/en/).
 
-[Official list of applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications)
+[The official list of applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications)
 
 [AUR packages for Arch Linux](https://aur.archlinux.org/packages/)
 
