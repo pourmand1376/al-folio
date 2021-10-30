@@ -9,3 +9,5 @@ _site
 Gemfile.lock
 vendor
 _bibliography/papers.bib.bak
+
+assets/resized/
