@@ -6,25 +6,25 @@ description: Here is a list of websites which I think are great
 comments: true
 
 ---
-These are mostly the websites bookmarked in my browser. I thought they could be helpful to others. So I made this.
+These are mostly bookmarks I have in my browser. I thought they could be helpful to others, so I compiled them here.
 
 ## For Researchers
 
 [Distill.pub](https://distill.pub/)
 
-An excellent site for Machine Learning researchers. Maybe the best explanation is what its creators say, "[Distill ](https://distill.pub/)is dedicated to clear explanations of machine learning."
+Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill ](https://distill.pub/)is dedicated to clear explanations of machine learning."
 
 [Connected Papers](http://connectedpapers.com "Connected Papers")
 
-An excellent tool for researchers, especially when finding review articles. All you need to do is enter the paper's title, and the site shows a beautiful graph of connected papers, as the name suggests!
+For researchers, this is an excellent tool, especially when searching for review articles. Enter the paper title, and you'll be able to see a beautiful graph of connected papers, as the name suggests!
 
 [Papers with code](https://paperswithcode.com)
 
-Browsing state-of-the-art (SOTA) in machine learning
+Reviewing current state-of-the-art in machine learning (SOTA)
 
 [MathPix](https://mathpix.com/)
 
-An incredible tool for converting math formulas in Image and PDF to Latex
+A powerful program for converting math formulas in Image or PDF to Latex.
 
 [ML Story](https://mlstory.org/)
 
