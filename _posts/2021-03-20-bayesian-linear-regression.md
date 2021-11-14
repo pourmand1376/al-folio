@@ -8,7 +8,7 @@ comments: true
 
 ## Introduction
 
-Many articles like [this](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7){:target="_blank"} in the [towardsdatascience](https://towardsdatascience.com/){:target="_blank"} tell us how to use Bayesian Linear Regression and why. I am not going to repeat that. I want to derive the formulas from scratch entirely. 
+Many articles like [this](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7) in the [towardsdatascience](https://towardsdatascience.com/) tell us how to use Bayesian Linear Regression and why. I am not going to repeat that. I want to derive the formulas from scratch entirely.
 
 I also understand that comprehending this stuff is slightly challenging if you don't have a strong mathematics background.
 
@@ -52,8 +52,6 @@ Next, we can compute the posterior distribution, which is proportional to the pr
 $$
 \text { posterior } \propto \text { likelihood } \times \text { prior }
 $$
-
-## 
 
 ## Deriving prior and posterior distributions
 

@@ -59,7 +59,7 @@ orcid_id: # your ORCID ID
 medium_username: #empty
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: Amir_Pourmand # your profile on ResearchGate
+research_gate_profile: #Amir_Pourmand # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: Most Useful Sites
 date: 2021-09-17T23:00:00.000+00:00
@@ -6,13 +7,22 @@ description: Here is a list of websites which I think are great
 comments: true
 
 ---
+
 These are mostly bookmarks I have in my browser. I thought they could be helpful to others, so I compiled them here.
 
 ## For Researchers
 
+[Grammarly](grammarly.com)
+
+Just a great tool !
+
+[WordTune](https://www.wordtune.com/)
+
+Basically, it paraphrases my sentences into better ones, and I found this one to be very intelligent too.
+
 [Distill.pub](https://distill.pub/)
 
-Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill ](https://distill.pub/)is dedicated to clear explanations of machine learning."
+Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill](https://distill.pub/)is dedicated to clear explanations of machine learning."
 
 [Connected Papers](http://connectedpapers.com "Connected Papers")
 
@@ -32,7 +42,7 @@ An intuitive explanation of Machine learning for starters.
 
 [Online Mathematics Editor](https://www.mathcha.io/)
 
-A fast way to write and share mathematics, especially when you don't have access to LATEX
+A fast way to write and share mathematics, especially when you don't have access to LATEX. Also, whenever I need to write some formulas, I first come here and write them, then export them into LATEX. It is a lot easier.
 
 ## Tools
 
