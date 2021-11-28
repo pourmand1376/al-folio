@@ -23,5 +23,3 @@ fields:
 - type: text
   name: category
   label: category
-pages:
-- _projects/sharex.md
