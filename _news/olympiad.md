@@ -7,10 +7,10 @@ inline: false
 ---
 ***
 
-I got a silver medal in the 25th Scientific Olympiad in Computer Engineering.
+![Olympiad Medal](/uploads/img_20211104_090356.jpg "Olympiad Medal")
 
-I also took this exam last year, which I was not prepared enough. I just wanted to measure my knowledge. However, this year, as I was studying for University Exam, I studied hard for Olympiad. That is because the questions asked in each exam are very different. I've also written my whole experience in Farsi Here.
+I won a silver medal in the 25th Scientific Olympiad in Computer Engineering.
 
-This is my exam results for last year. It was quite a good experience to speak to great people and find new friends.
+Last year, I took this exam, but I wasn't prepared enough. I just wanted to measure my knowledge. In addition to studying for my University Exam, I also prepared for Olympiad. As a result, I gained a solid understanding of subjects such as Algorithms, Operating Systems, Computer Networks, Computer Architecture, and also Digital Design.
 
-Let's stop it here and return later.
+I've also written my whole experience in Farsi [Here](https://vrgl.ir/1Fdhk "Olympiad Experience").
