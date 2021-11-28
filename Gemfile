@@ -17,3 +17,5 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'jekyll-target-blank'
 end
+
+gem "ffi", "~> 1.15"
