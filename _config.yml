@@ -14,6 +14,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 icon: /assets/img/favicon.ico # the emoji used as the favicon
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 use_custom_favicon: true # if this is true, you can set favicon path instead of using default emoji
 
 url: https://amirpourmand.ir # the base hostname & protocol for your site
@@ -144,13 +145,13 @@ plugins:
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-target-blank
-  - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-imagemagick
   - jekyll-paginate-v2
-  - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
   
@@ -211,21 +212,24 @@ scholar:
 
 
 # -----------------------------------------------------------------------------
-# Jekyll Responsive Images
+# Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-responsive_image:
-  template: _includes/responsive_img.html
-  # Quality to use when resizing images.
-  default_quality: 80
-  sizes:
-    - width: 480
-    - width: 800
-    - width: 1400
-      quality: 90
-  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
-  strip: true
-
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -234,6 +238,7 @@ responsive_image:
 jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
+
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -251,6 +256,7 @@ enable_navbar_social:       true  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+
 
 # -----------------------------------------------------------------------------
 # Library versions
