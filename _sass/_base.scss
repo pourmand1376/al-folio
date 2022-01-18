@@ -23,6 +23,17 @@ a, table.table a {
   }
 }
 
+table.table tr {
+  color: var(--global-text-color);
+  &:hover {
+    color: var(--global-text-color);
+  }
+}
+
+table.table td, table.table th {
+  border-color: var(--global-divider-color);
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
