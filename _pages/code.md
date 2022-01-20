@@ -69,7 +69,7 @@ nav: true
       <td><a href="https://github.com/pourmand1376/Seminar_Sharif">Seminar Sharif</a></td>
     </tr>
       <th scope="row">Oct, 2021</th>
-      <td>Iran Olympiad Sample Questions </td>
+      <td> Sample Questions for Iranian Computer Engineering Olympiad </td>
       <td><a href="https://github.com/pourmand1376/Olympiad-Iran">Olympiad-Iran</a></td>
     </tr>
     <tr>
