@@ -77,17 +77,7 @@ nav: true
       <td>Telegram Bot for group management using webhook </td>
       <td><a href="https://github.com/pourmand1376/TelegramWebhook">Telegram Webhook</a></td>
     </tr>
-    <tr>
-      <th scope="row">Jan, 2020</th>
-      <td>Implementation of LL(0), LR(0), SLR(1), CLR(1) algorithms in C#. </td>
-      <td><a href="https://github.com/pourmand1376/Parser">Parser</a></td>
-    </tr>
-    <tr>
-      <th scope="row">Jan, 2020</th>
-      <td>Simple Crawler, Indexer and Search Engine Web Application </td>
-      <td><a href="https://github.com/pourmand1376/Crawler">Crawler</a></td>
-    </tr>
-    <tr>
+     <tr>
       <th scope="row">Jul, 2021</th>
       <td>Digital Image Processing Homeworks </td>
       <td><a href="https://github.com/pourmand1376/DIP-projects">DIP projects</a></td>
@@ -102,6 +92,17 @@ nav: true
       <td> Machine Learning Homeworks </td>
       <td><a href="https://github.com/pourmand1376/ML-projects">ML Projects</a></td>
     </tr>
+    <tr>
+      <th scope="row">Jan, 2020</th>
+      <td>Implementation of LL(0), LR(0), SLR(1), CLR(1) algorithms in C#. </td>
+      <td><a href="https://github.com/pourmand1376/Parser">Parser</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Jan, 2020</th>
+      <td>Simple Crawler, Indexer and Search Engine Web Application </td>
+      <td><a href="https://github.com/pourmand1376/Crawler">Crawler</a></td>
+    </tr>
+   
   </tbody>
 </table>
 
