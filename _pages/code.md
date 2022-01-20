@@ -63,6 +63,11 @@ nav: true
   </thead>
   <tbody>
     <tr>
+    <tr>
+      <th scope="row">Jan, 2022</th>
+      <td>Latex Template for Seminar (Sharif University)</td>
+      <td><a href="https://github.com/pourmand1376/Seminar_Sharif">Seminar Sharif</a></td>
+    </tr>
       <th scope="row">Oct, 2021</th>
       <td>Iran Olympiad Sample Questions </td>
       <td><a href="https://github.com/pourmand1376/Olympiad-Iran">Olympiad-Iran</a></td>
