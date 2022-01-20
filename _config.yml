@@ -53,7 +53,7 @@ og_image: /assets/img/opengraph.png # The site-wide (default for all links) Open
 
 github_username: pourmand1376
 gitlab_username: #pourmand1376
-twitter_username: AmirPourmand76
+twitter_username: # AmirPourmand76
 linkedin_username: amir-pourmand
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -68,7 +68,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: 4201765
 
-rss_icon: true
+rss_icon: false
 
 contact_note: >
   Feel free to drop me a line via my primary email <a href="mailto:pourmand1376@gmail.com" target="_blank">pourmand1376@gmail.com</a> or my academic email 
