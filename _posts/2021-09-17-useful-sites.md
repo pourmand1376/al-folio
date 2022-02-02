@@ -55,3 +55,9 @@ Photoshop-like software for editing purposes. I think It is a fantastic alternat
 [AUR packages for Arch Linux](https://aur.archlinux.org/packages/)
 
 If you are familiar with Arch Linux, you know that these two are the only sites you need to install any software!
+
+[Chaotic AUR](https://pkgs.org/)
+
+A Useful site which provides compiled files to easily install a package
+
+## Useful sites for machine learning
