@@ -28,7 +28,7 @@ Just use
 
     aura -Asr package_name
 
-and it will show you the exact name to install the package you want. 
+and it will show you the exact name to install the package you want.
 
 > Some package names are ended with `bin` it means that aura will download prebuilt binary package and install it directly. Otherwise, it will most
 > probably built the package on your system from scratch. Don't worry, you dont't have to do anything. Aura will take care of everything. 

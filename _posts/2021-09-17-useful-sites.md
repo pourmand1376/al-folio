@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Most Useful Sites
 date: 2021-09-17T23:00:00.000+00:00
@@ -49,6 +48,8 @@ A fast way to write and share mathematics, especially when you don't have access
 [Advanced Photo Editor](https://photopea.com)
 
 Photoshop-like software for editing purposes. I think It is a fantastic alternative for someone like me who, you know, edits photos once a year! If you want something to use daily, I would recommend [Krita](https://krita.org/en/).
+
+[Online Clipboard Sharing](https://regprime.com/Clipboard)
 
 [The official list of applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications)
 
