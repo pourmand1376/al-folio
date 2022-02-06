@@ -1,0 +1,13 @@
+---
+label: 'Inline news '
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: inline
+  label: inline

@@ -23,9 +23,22 @@ a, table.table a {
   }
 }
 
+table.table tr {
+  color: var(--global-text-color);
+  &:hover {
+    color: var(--global-text-color);
+  }
+}
+
+table.table td, table.table th {
+  border-color: var(--global-divider-color);
+}
+
+
 figure, img {
   max-width: 90vw;
 }
+
 
 blockquote {
   background: var(--global-bg-color);

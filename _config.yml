@@ -1,25 +1,26 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+name: Amir Pourmand | امیر پورمند
+title: Amir Pourmand # the website title (if blank, full name will be used instead)
+first_name: Amir
+middle_name: 
+last_name: Pourmand
+email: pourmand1376@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A place to share my thoughts and also host the resume! 
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
+icon: /assets/img/favicon.ico # the emoji used as the favicon
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+use_custom_favicon: true # if this is true, you can set favicon path instead of using default emoji
+
+url: https://amirpourmand.ir # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -35,7 +36,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -46,45 +47,47 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/opengraph.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+github_username: pourmand1376
+gitlab_username: #pourmand1376
+twitter_username: # AmirPourmand76
+linkedin_username: amir-pourmand
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
+medium_username: #empty
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: #Amir_Pourmand # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+stackoverflow_id: 4201765
 
+rss_icon: false
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to drop me a line via my primary email <a href="mailto:pourmand1376@gmail.com" target="_blank">pourmand1376@gmail.com</a> or my academic email 
+  <a href="mailto:pourmand@ce.sharif.edu" target="_blank">pourmand@ce.sharif.edu</a>
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_analytics: UA-199451648-2  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_site_verification: l6RhusmfgSX-TJDRlJA7d5bn6MknReY9_IE3ds5OyGY # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
+panelbear_analytics: GYYavLkyYFV # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: My Blog  # your blog must have a name for it to show up in the nav bar
+blog_description: A place to share my thoughts (<a href="https://virgool.io/@pourmand1376">Farsi Blog</a>)
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -92,7 +95,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: pourmand # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -155,6 +158,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  
 
 # Sitemap settings
 defaults:
@@ -203,8 +207,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Pourmand
+  first_name: Amir
 
   style: apa
   locale: en
@@ -260,16 +264,16 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_analytics:    true  # enables google analytics
+enable_panelbear_analytics: true  # enables panelbear analytics
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
+enable_tooltips:            true  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
