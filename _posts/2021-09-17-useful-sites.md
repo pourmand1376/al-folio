@@ -50,6 +50,14 @@ A fast way to write and share mathematics, especially when you don't have access
 
 Photoshop-like software for editing purposes. I think It is a fantastic alternative for someone like me who, you know, edits photos once a year! If you want something to use daily, I would recommend [Krita](https://krita.org/en/).
 
+[Postman](https://www.postman.com/)
+
+You can call any API with postman.
+
+[Clipboard Service](https://fastbin.xyz/)
+
+Just another clipboard service which I use
+
 [The official list of applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications)
 
 [AUR packages for Arch Linux](https://aur.archlinux.org/packages/)
@@ -60,4 +68,4 @@ If you are familiar with Arch Linux, you know that these two are the only sites 
 
 A Useful site which provides compiled files to easily install a package
 
-## Useful sites for machine learning
+<!-- ## Useful sites for machine learning -->
