@@ -28,9 +28,6 @@ Machine Learning researchers should check out this site. There's no better expla
 
 For researchers, this is an excellent tool, especially when searching for review articles. Enter the paper title, and you'll be able to see a beautiful graph of connected papers, as the name suggests!
 
-[Papers with code](https://paperswithcode.com)
-
-Reviewing current state-of-the-art in machine learning (SOTA)
 
 [MathPix](https://mathpix.com/)
 
@@ -43,6 +40,10 @@ An intuitive explanation of Machine learning for starters.
 [Online Mathematics Editor](https://www.mathcha.io/)
 
 A fast way to write and share mathematics, especially when you don't have access to LATEX. Also, whenever I need to write some formulas, I first come here and write them, then export them into LATEX. It is a lot easier.
+
+[Drawing Diagram](https://mermaid-js.github.io/mermaid-live-editor/)
+
+Best tool (langauge) for drawing a diagram, in my humble opinion, is mermaid. You don't have to use mouse anymore. Just describe what you want and it will render a beatiful diagram. This is also supported in github markdown.
 
 ## Tools
 
@@ -68,4 +69,10 @@ If you are familiar with Arch Linux, you know that these two are the only sites 
 
 A Useful site which provides compiled files to easily install a package
 
-<!-- ## Useful sites for machine learning -->
+## Useful sites for machine learning
+
+[Papers with code](https://paperswithcode.com)
+
+Reviewing current state-of-the-art in machine learning (SOTA)
+
+[Trend articles everyday](https://mavenlin.github.io/ai_research_trends/)
