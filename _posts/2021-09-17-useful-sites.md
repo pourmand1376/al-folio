@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Most Useful Sites
 date: 2021-09-17T23:00:00.000+00:00
@@ -22,12 +21,11 @@ Basically, it paraphrases my sentences into better ones, and I found this one to
 
 [Distill.pub](https://distill.pub/)
 
-Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill](https://distill.pub/)is dedicated to clear explanations of machine learning."
+Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill](https://distill.pub/) is dedicated to clear explanations of machine learning."
 
 [Connected Papers](http://connectedpapers.com "Connected Papers")
 
 For researchers, this is an excellent tool, especially when searching for review articles. Enter the paper title, and you'll be able to see a beautiful graph of connected papers, as the name suggests!
-
 
 [MathPix](https://mathpix.com/)
 

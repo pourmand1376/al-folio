@@ -63,13 +63,13 @@ layout: default
  <script type="text/javascript">
  
    /* - - - CONFIGURATION VARIABLES - - - */
- 
+   let hash = window.btoa('{{ page.title }}')
    var __semio__params = {
      graphcommentId: "Amir-Pourmand", // make sure the id is yours
  
      behaviour: {
        // HIGHLY RECOMMENDED
-       uid: btoa(page.title)
+       uid: hash
        //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
      },
  
