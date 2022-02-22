@@ -6,6 +6,7 @@ subtitle: >
   ML Research @ <a href="http://dml.ir/">DML</a> in <a href="http://www.sharif.edu/">Sharif Univeristy</a> • Previously: 
   <a href="https://yazd.ac.ir/">Yazd University</a>,
   Software Developer @ <a href="http://www.amapardazesh.com/">Amapardazesh </a>
+  ⇄ <a href="https://aprd.ir/"> Farsi Website </a>
 
 profile:
   align: right
