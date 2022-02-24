@@ -87,7 +87,7 @@ panelbear_analytics: GYYavLkyYFV # panelbear analytics site ID (format: XXXXXXXX
 # -----------------------------------------------------------------------------
 
 blog_name: My Blog  # your blog must have a name for it to show up in the nav bar
-blog_description: A place to share my thoughts (<a href="https://virgool.io/@pourmand1376">Farsi Blog</a>)
+blog_description: A place to share my thoughts (<a href="https://aprd.ir">Farsi Blog</a>)
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -95,7 +95,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: pourmand # put your disqus shortname
+disqus_shortname: #pourmand # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
