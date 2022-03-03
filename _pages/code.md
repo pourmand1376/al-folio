@@ -8,6 +8,8 @@ nav: true
 
 ### Open source contributions
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=pourmand1376&show_icons=true&theme=default&bg_color=00000000)
+
 <table class="table table-hover table-sm">
   <colgroup>
     <col style="width:15%">
