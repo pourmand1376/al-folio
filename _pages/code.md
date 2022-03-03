@@ -108,15 +108,6 @@ nav: true
   </tbody>
 </table>
 
-Todo: Dates are incorrect.
-
-<!-- Place this tag where you want the button to render. -->
-For more open source contributions:
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/pourmand1376" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true" aria-label="Follow @pourmand1376 on GitHub">Follow @pourmand1376</a>
-
-<!-- GitHub buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
 
