@@ -14,8 +14,8 @@
 <footer class="sticky-bottom mt-5">
   <div class="container">
     <nav class="nav">
-      <a class="nav-link" href="/Home">Home</a>
-      <a class="nav-link" href="/Blog">Blog</a>
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/blog">Blog</a>
       {%- assign sorted_pages = site.pages | sort: "title" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
