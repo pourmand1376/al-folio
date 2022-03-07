@@ -22,3 +22,14 @@ nav: true
 > - Bachelor of Science in Computer Engineering
 > - GPA: 17.47/20, Units: 140
 
+
+## Courses
+
+#### [Stochastic Process](https://github.com/pourmand1376/SP-Homeworks) (Aug 2021 - Jan 2022) - Supervisor: Prof. Hamid R. Rabiee
+#### [Machine Learning](https://github.com/pourmand1376/ML-projects) (Jan 2021 - July 2021) - Supervisor: Dr. M. Rohban
+#### [Statistical Machine Learning](https://github.com/pourmand1376/SML-projects) (Jan 2021 - July 2021) - Supervisor: Prof. Rabiee
+#### [Digital Image Processing](https://github.com/pourmand1376/DIP-projects) (Jan 2021 - July 2021) - Supervisor: Prof. Kasaei
+
+## Course Projects
+#### [Compiler and Parser](https://github.com/pourmand1376/Parser) (December 2019) - Supervisor: Dr. ZarePour
+#### [Web Crawler, Indexer and Search Engine Web Application](https://github.com/pourmand1376/Crawler) (November 2018) - Supervisor: Dr. A. Zareh

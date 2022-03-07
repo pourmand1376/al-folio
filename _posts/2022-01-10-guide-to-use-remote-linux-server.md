@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ultimate Guide for using remote server (linux) for a data scientist!
-date: 2021-12-28T23:00:00.000+00:00
+date: 2023-12-28T23:00:00.000+00:00
 description: This is a guide for people who want to use a remote linux server for data science stuff.
 comments: true
 ---
