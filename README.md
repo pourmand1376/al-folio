@@ -106,7 +106,36 @@ Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/0
 
 ### Installation
 
-#### Local setup
+#### Local setup using Docker (Recommended)
+
+You need to do these step to get `ai-folio` up and running in your local machine:
+
+- Install [docker](https://docs.docker.com/get-docker/)
+- Clone your repository
+
+```bash
+      git clone git@github.com:<your-username>/<your-repo-name>.git
+      cd <your-repo-name>
+```
+
+- Download necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+  
+
+```bash
+    bin/docker_build_image.sh  
+```
+
+- Run the website!
+
+```bash
+    bin/docker_run.sh
+```
+
+> In order to change port number, you can change `docker_run.sh` file.
+
+> If you want to update jekyll or install new ruby packages or ... , all you have to do is to build the image again using `docker_build_image.sh`! It will download ruby and jekyll and installall ruby packages again.
+
+#### Local Setup (Legacy mode)
 
 Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
