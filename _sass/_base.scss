@@ -12,6 +12,15 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+table {
+    td, th {
+      color: var(--global-text-color);
+    }
+    td {
+      font-size: 1rem;
+    }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -51,7 +60,32 @@ blockquote {
   text-align: center;
 }
 
+// Card
+
+.card {
+  background-color: var(--global-card-bg-color);
+  
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 // Citation
+
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -153,7 +187,7 @@ blockquote {
     a {
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
@@ -199,18 +233,6 @@ blockquote {
   }
 }
 
-
-// News
-
-.news table td {
-  font-size: 1rem;
-  color: var(--global-text-color);
-}
-
-.news table th {
-  color: var(--global-text-color);
-}
-
 // Social (bottom)
 
 .social {
@@ -220,7 +242,7 @@ blockquote {
     a {
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
@@ -349,9 +371,6 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
-    .card-title {
-      color: $black-color;
-    }
   }
 
   .card-item {
@@ -364,7 +383,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-item {
+  .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
@@ -467,7 +486,7 @@ footer.sticky-bottom {
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        -webkit-transition: 0.15s ease;
+        transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -485,7 +504,7 @@ footer.sticky-bottom {
       }
       .hidden.open {
         max-height: 100em;
-        -webkit-transition: 0.15s ease;
+        transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
