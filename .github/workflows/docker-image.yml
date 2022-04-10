@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag amirpourmand/ai-folio:$(date +%s)
       
     - name: Docker Push
-      run: docker push amirpourmand/ai-folio:$(date +%s)
+      run: docker push amirpourmand/ai-folio
