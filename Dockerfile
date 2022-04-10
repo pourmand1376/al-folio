@@ -10,4 +10,5 @@ RUN apk add --no-cache --virtual .build-deps \
     && apk add --no-cache imagemagick-dev imagemagick
 WORKDIR /srv/jekyll
 ADD Gemfile /srv/jekyll/
+RUN gem install bundler -v 2.3.10
 RUN bundler install
