@@ -43,6 +43,8 @@ A fast way to write and share mathematics, especially when you don't have access
 
 Best tool (langauge) for drawing a diagram, in my humble opinion, is mermaid. You don't have to use mouse anymore. Just describe what you want and it will render a beatiful diagram. This is also supported in github markdown.
 
+[Journal and Conference Ranking](https://www.resurchify.com/)
+
 ## Tools
 
 [Advanced Photo Editor](https://photopea.com)
