@@ -8,20 +8,23 @@ nav: true
 
 #### [Resume in PDF](/assets/pdf/cv.pdf)
 
+---
 
 ### Education
 
-[Sharif University of Technology](https://sharif.edu)
+* [Sharif University of Technology](https://sharif.edu)
 
-> - Master of Science in Artificial Intelligence and robotics
-> - GPA: 18.7/20
-> - Relevant Courses: Machine Learning, Statitical Machine Learning, Deep Learning, Image Processing
+    - Master of Science in Artificial Intelligence and robotics
+    - GPA: 18.7/20
+    - Relevant Courses: Machine Learning, Statitical Machine Learning, Deep Learning
 
-[Yazd University](https://yazd.ac.ir)
 
-> - Bachelor of Science in Computer Engineering
-> - GPA: 17.47/20, Units: 140
+* [Yazd University](https://yazd.ac.ir)
 
+    - Bachelor of Science in Computer Engineering
+    - GPA: 17.47/20, Units: 140
+
+---
 
 ### Courses
 - [Deep Learning](https://github.com/pourmand1376/DL-Homeworks) (Aug 2021 - Jan 2022) - Supervisor: Prof. Hamid Beigy
@@ -29,6 +32,8 @@ nav: true
 - [Machine Learning](https://github.com/pourmand1376/ML-projects) (Jan 2021 - July 2021) - Supervisor: Dr. M. Rohban
 - [Statistical Machine Learning](https://github.com/pourmand1376/SML-projects) (Jan 2021 - July 2021) - Supervisor: Prof. Rabiee
 - [Digital Image Processing](https://github.com/pourmand1376/DIP-projects) (Jan 2021 - July 2021) - Supervisor: Prof. Kasaei
+
+---
 
 ### Course Projects
 - [Compiler and Parser](https://github.com/pourmand1376/Parser) (December 2019) - Supervisor: Dr. ZarePour
