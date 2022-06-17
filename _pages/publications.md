@@ -5,6 +5,7 @@ title: Publications
 description: List of publications
 years: [2020]
 nav: true
+nav_order: 2
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
