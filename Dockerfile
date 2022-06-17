@@ -1,6 +1,5 @@
-FROM jekyll/jekyll
-MAINTAINER Amir Pourmand
-Label MAINTAINER Amir Pourmand
+FROM jekyll/jekyl
+LABEL MAINTAINER Amir Pourmand
 #install imagemagick tool for convert command
 RUN apk add --no-cache --virtual .build-deps \
         libxml2-dev \
