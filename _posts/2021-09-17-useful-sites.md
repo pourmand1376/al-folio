@@ -63,6 +63,10 @@ You can call any API with postman.
 
 Just another clipboard service which I use
 
+[Real-time codesharing platform](https://codeshare.io/)
+
+Here you I can share my code in real-time! This is also good as a clipboard sharing platform!
+
 [The official list of applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications)
 
 [AUR packages for Arch Linux](https://aur.archlinux.org/packages/)
@@ -76,6 +80,7 @@ A Useful site which provides compiled files to easily install a package
 ## Useful sites for machine learning
 
 [Papers with code](https://paperswithcode.com)
+
 
 Reviewing current state-of-the-art in machine learning (SOTA)
 
