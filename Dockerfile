@@ -1,4 +1,4 @@
-FROM jekyll/jekyl
+FROM jekyll/jekyll
 LABEL MAINTAINER Amir Pourmand
 #install imagemagick tool for convert command
 RUN apk add --no-cache --virtual .build-deps \
