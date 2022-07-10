@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+  FILE=Gemfile.lock
+if [ -f "$FILE" ]; then
+    rm $FILE
+fi
+  docker build -t "al-folio:Dockerfile" . 
+||||||| 032f0e6
+=======
+  FILE=Gemfile.lock
+if [ -f "$FILE" ]; then
+    rm $FILE
+fi
+  docker build -t "al-folio:latest" . 
+>>>>>>> 07330b9bf9cd3d8fa017d13f67076af00710372d
