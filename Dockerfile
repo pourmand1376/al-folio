@@ -1,5 +1,5 @@
 FROM jekyll/jekyll
-LABEL MAINTAINER Amir Pourmand
+Label MAINTAINER Amir Pourmand
 #install imagemagick tool for convert command
 RUN apk add --no-cache --virtual .build-deps \
         libxml2-dev \
@@ -10,4 +10,4 @@ RUN apk add --no-cache --virtual .build-deps \
     && apk add --no-cache imagemagick-dev imagemagick
 WORKDIR /srv/jekyll
 ADD Gemfile /srv/jekyll/
-RUN bundler install
+RUN bundle install
