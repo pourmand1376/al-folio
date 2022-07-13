@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  ML Research @ <a href="http://dml.ir/">DML</a> in <a href="http://www.sharif.edu/">Sharif Univeristy</a> • Previously: 
+  ML Researcher @ <a href="http://dml.ir/">DML</a> in <a href="http://www.sharif.edu/">Sharif Univeristy</a> • Previously: 
   <a href="https://yazd.ac.ir/">Yazd University</a>,
   Software Developer @ <a href="http://www.amapardazesh.com/">Amapardazesh </a>
   ⇄ <a href="https://aprd.ir/"> Farsi Website </a>
@@ -22,4 +22,4 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing my master's degree in `AI & Robotics` at the Sharif University of Technology under the supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/).
+I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing my master's degree in `AI & Robotics` at the Sharif University of Technology under the supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/). 
