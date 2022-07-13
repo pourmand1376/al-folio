@@ -3,6 +3,7 @@ layout: page
 permalink: /code
 title: Code
 description: My Codes
+nav_order: 3
 nav: true
 ---
 

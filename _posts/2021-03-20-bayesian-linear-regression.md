@@ -4,6 +4,7 @@ title:  Bayesian Linear Regression Full Derivation
 date: 2021-03-20 17:00:00
 description: I just want to derive the formulas from scratch.
 comments: true
+tags: math
 ---
 
 ## Introduction

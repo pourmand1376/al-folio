@@ -3,6 +3,7 @@ layout: page
 permalink: /bio/
 title: Biography
 description: Short biography of me
+nav_order: 1
 nav: true
 ---
 

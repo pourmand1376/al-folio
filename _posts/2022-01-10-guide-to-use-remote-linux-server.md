@@ -4,6 +4,7 @@ title: Ultimate Guide for using remote server (linux) for a data scientist!
 date: 2022-05-20T23:00:00.000+00:00
 description: This is a guide for people who want to use a remote linux server for data science stuff.
 comments: true
+tags: linux
 ---
 
 Well, you have got a server (most probably linux) which you want to run your tasks on it. How should you do that?
