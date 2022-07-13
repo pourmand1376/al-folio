@@ -1,1 +1,1 @@
-  docker build -t "mywebsite:Dockerfile" . 
+  docker build -t "al-folio:latest" . 

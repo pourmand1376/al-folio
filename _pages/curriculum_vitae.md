@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv
 permalink: /cv/
 title: Curriculum Vitae 
 description: My curriculum vitae 
