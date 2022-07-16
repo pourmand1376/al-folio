@@ -58,7 +58,8 @@ You can call any API with postman.
 
 [Gitpod](gitpod.io)
 
-(A great tool to flash ISO to USB)[https://www.balena.io/etcher/] 
+[A great tool to flash ISO to USB](https://www.balena.io/etcher/)
+
 Also, for windows, you can use [Rufus](https://rufus.ie/en/). I prefer to use [Ventoy](https://www.ventoy.net/en/index.html) as it supports multiple iso files at ones.
 
 [Clipboard Service](https://fastbin.xyz/)
