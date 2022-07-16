@@ -58,6 +58,8 @@ You can call any API with postman.
 
 [Gitpod](gitpod.io)
 
+(A great tool to flash ISO to USB)[https://www.balena.io/etcher/] 
+Also, for windows, you can use [Rufus](https://rufus.ie/en/)
 
 [Clipboard Service](https://fastbin.xyz/)
 [Online Clipboard Sharing](https://regprime.com/Clipboard)
