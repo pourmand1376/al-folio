@@ -7,6 +7,8 @@
       value: 03 Octobor 1997
     - name: Languages
       value: Persian (Farsi), English
+    - name: CV PDF
+      value: <a href="/assets/pdf/cv.pdf">PDF</a>
 
 - title: Education
   type: time_table
