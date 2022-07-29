@@ -22,11 +22,6 @@
           contents:
             - "Project Supervisor: Prof. Hamid R. Rabiee"
             - "Project Title: Real-time automatic Polyp detection and classification using interpretable AI (XAI)"
-            - "Project Summary:
-                There are tons of projects which have worked on Polyp detection and classification. 
-                However, there is not enough attention to enhancing the explainability of these methods. I am working 
-                to interpret Yolov5 architecture to understand better why the model predicts something (a combined 
-                project with the Tehran University of Medical Sciences)."
     - title: Bachelor of Science in Computer Engineering 
       institution: Yazd University
       year: 2016 - 2020
