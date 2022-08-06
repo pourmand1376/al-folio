@@ -23,4 +23,4 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing my master's degree in `AI & Robotics` at the Sharif University of Technology under the supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/). 
+I am Amir Pourmand ([امیر پورمند](https://aprd.ir/) - in Farsi). Currently, I'm pursuing my master's degree in `AI & Robotics` at the Sharif University of Technology under the supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/). 
