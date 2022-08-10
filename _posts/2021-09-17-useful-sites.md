@@ -1,91 +1,108 @@
 ---
 layout: post
-title: Most Useful Sites
+title: Most Useful Sites and tools 
 date: 2021-09-17T23:00:00.000+00:00
-description: Here is a list of websites which I think are great
+description: Here is a list of websites that I think are great
 comments: true
 tags: website
 
 ---
 
-These are mostly bookmarks I have in my browser. I thought they could be helpful to others, so I compiled them here.
+These are primarily bookmarks I have in my browser. I thought they could be helpful to others, so I compiled them here.
 
 ## For Researchers
 
-[Grammarly](grammarly.com)
-
-Just a great tool !
-
-[WordTune](https://www.wordtune.com/)
-
-Basically, it paraphrases my sentences into better ones, and I found this one to be very intelligent too.
-
-[Distill.pub](https://distill.pub/)
-
-Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill](https://distill.pub/) is dedicated to clear explanations of machine learning."
 
 [Connected Papers](http://connectedpapers.com "Connected Papers")
 
-For researchers, this is an excellent tool, especially when searching for review articles. Enter the paper title, and you'll be able to see a beautiful graph of connected papers, as the name suggests!
+This is an excellent tool for researchers, especially when searching for review articles. Enter the paper title, and you'll be able to see a beautiful graph of connected papers, as the name suggests!
+
+[Research Rabbit](https://researchrabbitapp.com/)
+
+I have always wanted a tool to find related papers to the ones I am already reading. This one does that. So, you don't need to search for the state of the art papers using different keywords now and then.
 
 [MathPix](https://mathpix.com/)
 
-A powerful program for converting math formulas in Image or PDF to Latex.
+This powerful program converts math formulas in Image or PDF to Latex.
 
-[ML Story](https://mlstory.org/)
-
-An intuitive explanation of Machine learning for starters.
 
 [Online Mathematics Editor](https://www.mathcha.io/)
 
 A fast way to write and share mathematics, especially when you don't have access to LATEX. Also, whenever I need to write some formulas, I first come here and write them, then export them into LATEX. It is a lot easier.
 
-[Drawing Diagram](https://mermaid-js.github.io/mermaid-live-editor/)
+[Mermail Live Editor](https://mermaid-js.github.io/mermaid-live-editor/)
 
-Best tool (langauge) for drawing a diagram, in my humble opinion, is mermaid. You don't have to use mouse anymore. Just describe what you want and it will render a beatiful diagram. This is also supported in github markdown.
+The best tool (language) for drawing a diagram is Mermaid. You don't have to use a mouse anymore. Just describe what you want, and it will render a beautiful diagram. This is also supported in GitHub markdown.
+
+[Figma](https://www.figma.com/)
+
+Also, when creating more complex layouts that can not be defined easily via Mermaid, I have this one in mind. 
 
 [Journal and Conference Ranking](https://www.resurchify.com/)
 
-## Tools
+
+
+## Text Editing and paraphrasing tools
+
+[Grammarly](grammarly.com)
+
+Who doesn't know about Grammarly? It has become a de facto standard when checking grammar. However, what it does is very simple. Often I find it boring since It can not rephrase the whole sentence. I had an educational premium account, but I don't use it anymore. 
+
+[WordTune](https://www.wordtune.com/)
+
+It paraphrases my sentences into better ones, and I found this one very intelligent too.
+
+[QuillBot](https://quillbot.com/)
+
+This one is pretty interesting too. It offers unlimited free paraphrasing, so I use this one more than Wordtune. 
+## Other Tools
 
 [Advanced Photo Editor](https://photopea.com)
 
-Photoshop-like software for editing purposes. I think It is a fantastic alternative for someone like me who, you know, edits photos once a year! If you want something to use daily, I would recommend [Krita](https://krita.org/en/).
+Photoshop-like software for editing purposes. It is a fantastic alternative for someone like me who, you know, edits photos once a year! If you want something to use daily, I recommend [Krita](https://krita.org/en/).
 
 [Postman](https://www.postman.com/)
 
-You can call any API with postman.
+You can call any API with Postman.
 
 [Gitpod](gitpod.io)
 
 [A great tool to flash ISO to USB](https://www.balena.io/etcher/)
 
-Also, for windows, you can use [Rufus](https://rufus.ie/en/). I prefer to use [Ventoy](https://www.ventoy.net/en/index.html) as it supports multiple iso files at ones.
+Also, for windows, you can use [Rufus](https://rufus.ie/en/). I prefer to use [Ventoy](https://www.ventoy.net/en/index.html) as it simultaneously supports multiple iso files.
 
 [Clipboard Service](https://fastbin.xyz/)
 [Online Clipboard Sharing](https://regprime.com/Clipboard)
 
-Just another clipboard service which I use
+Just another clipboard service that I use
 
 [Real-time codesharing platform](https://codeshare.io/)
 
-Here you I can share my code in real-time! This is also good as a clipboard sharing platform!
+Here I can share my code in real-time! This is also good as a clipboard-sharing platform!
 
 [The official list of applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications)
 
 [AUR packages for Arch Linux](https://aur.archlinux.org/packages/)
 
-If you are familiar with Arch Linux, you know that these two are the only sites you need to install any software!
+If you are familiar with Arch Linux, you know these two are the only sites you need to install any software!
 
 [Chaotic AUR](https://pkgs.org/)
 
-A Useful site which provides compiled files to easily install a package
+A Useful site that provides compiled files to quickly install a package
 
-## Useful sites for machine learning
+
+## ML learning 
+[Distill.pub](https://distill.pub/)
+
+Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill](https://distill.pub/) is dedicated to clear explanations of machine learning."
+
+[ML Story](https://mlstory.org/)
+
+This is an intuitive explanation of Machine learning, for starters.
 
 [Papers with code](https://paperswithcode.com)
 
 
 Reviewing current state-of-the-art in machine learning (SOTA)
 
-[Trend articles everyday](https://mavenlin.github.io/ai_research_trends/)
+[Trend articles every day](https://mavenlin.github.io/ai_research_trends/)
