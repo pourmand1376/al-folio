@@ -22,6 +22,28 @@ After that you will need to enter your password for the user `pourmand` in the s
 > You may also want the server to **know** your computer i.e. it does not ask for password every time you want to connect to it.
 > If that's the case, I suggest that you read [this](https://linuxhandbook.com/add-ssh-public-key-to-server/) tutorial. To put it in the nutshell, you sould copy your public ssh key to the server using `ssh-copy-id` command. 
 
+In addition, you can also define your ssh servers in a file called `config`. This way you can connect to the server just by typing:
+
+```bash
+ssh my_server
+```
+
+For that, open `~/.ssh/config` file and write the following configuration:
+
+```bash
+HOST <<your_desired_host_name>>
+	HOSTNAME <<hostname_ip>>
+	USER <<your_username>>
+	LOCALFORWARD 1717 localhost:1717
+```
+
+You can also set `tmux` to open automatically by adding the following lines ([Reference](https://stackoverflow.com/questions/27613209/how-to-automatically-start-tmux-on-ssh-session)) :
+
+```bash
+    RequestTTY yes 
+    RemoteCommand tmux new -A -s <<your_tmux_session_name>>
+```
+
 ## Tmux
 
 Then you can run your commands on the server, e.g.:
