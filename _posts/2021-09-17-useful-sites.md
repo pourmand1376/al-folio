@@ -65,7 +65,7 @@ Photoshop-like software for editing purposes. It is a fantastic alternative for 
 
 You can call any API with Postman.
 
-[Gitpod](gitpod.io)
+[Gitpod](https://www.gitpod.io/)
 
 [A great tool to flash ISO to USB](https://www.balena.io/etcher/)
 
