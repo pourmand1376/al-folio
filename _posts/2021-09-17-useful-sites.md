@@ -93,6 +93,10 @@ A Useful site that provides compiled files to quickly install a package
 [SpeedTest](https://www.speedtest.net/)
 
 A good website which I use from time to time to check my internet connection. 
+
+[Git Command Explorer](https://gitexplorer.com/)
+
+Find the right commands you need without digging through the web.
 ## ML learning 
 [Distill.pub](https://distill.pub/)
 
