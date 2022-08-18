@@ -89,11 +89,27 @@ I can't think anyone not using this tool. It shows you all processes and their m
 
 ## Nvidia-htop
 
-You can see GPU information using `nvidia-smi`. But most of the time, it doesn't tell you all the information you need at once. You want to undestand who is using GPU or how much time GPU is being used and what not. You can see all you need using `nvidia-htop`. For installation it is indeed very easy. 
+You can see GPU information using `nvidia-smi`. But most of the time, it doesn't tell you all the information you need at once. You want to undestand who is using GPU or how much time GPU is being used and what not. You can see all you need using `nvidia-htop`. For installation, it is indeed very easy. 
 
 ```bash
 pip install nvidia-htop
 
 # then run
 nvidia-htop.py
+```
+
+{% include figure.html path="assets/posts/remote_server/nvidia-htop.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+## NVITop
+
+This one is very similar with `nvidia-htop` but it shows more! 
+
+{% include figure.html path="assets/posts/remote_server/nvitop.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+Installation is also very easy:
+```bash
+pip install nvitop
+
+# then run
+nvitop
 ```
