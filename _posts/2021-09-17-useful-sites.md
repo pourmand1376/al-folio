@@ -67,6 +67,10 @@ You can call any API with Postman.
 
 [Gitpod](https://www.gitpod.io/)
 
+[JSON Crack](https://jsoncrack.com/)
+
+Seamlessly visualize your JSON data instantly into graphs!
+
 [A great tool to flash ISO to USB](https://www.balena.io/etcher/)
 
 Also, for windows, you can use [Rufus](https://rufus.ie/en/). I prefer to use [Ventoy](https://www.ventoy.net/en/index.html) as it simultaneously supports multiple iso files.
