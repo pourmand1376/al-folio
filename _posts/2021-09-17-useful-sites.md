@@ -41,7 +41,6 @@ Also, when creating more complex layouts that can not be defined easily via Merm
 [Journal and Conference Ranking](https://www.resurchify.com/)
 
 
-
 ## Text Editing and paraphrasing tools
 
 [Grammarly](grammarly.com)
@@ -55,7 +54,11 @@ It paraphrases my sentences into better ones, and I found this one very intellig
 [QuillBot](https://quillbot.com/)
 
 This one is pretty interesting too. It offers unlimited free paraphrasing, so I use this one more than Wordtune. 
+
 ## Other Tools
+
+[TIME.IS](https://time.is/) 
+Exact time for any time zone
 
 [Advanced Photo Editor](https://photopea.com)
 
@@ -101,7 +104,9 @@ A good website which I use from time to time to check my internet connection.
 [Git Command Explorer](https://gitexplorer.com/)
 
 Find the right commands you need without digging through the web.
+
 ## ML learning 
+
 [Distill.pub](https://distill.pub/)
 
 Machine Learning researchers should check out this site. There's no better explanation than what its creators say, "[Distill](https://distill.pub/) is dedicated to clear explanations of machine learning."
