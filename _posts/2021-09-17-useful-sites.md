@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Most Useful Sites and tools 
+title: Most Useful Sites and tools (All Online)
 date: 2021-09-17T23:00:00.000+00:00
-description: Here is a list of websites that I think are great
+description: Here is a list of websites that I think are great.
 comments: true
 tags: website
 
