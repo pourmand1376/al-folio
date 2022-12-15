@@ -102,7 +102,7 @@ panelbear_analytics: GYYavLkyYFV # panelbear analytics site ID (format: XXXXXXXX
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My Blog  # your blog must have a name for it to show up in the nav bar
+blog_name: # My Blog  # your blog must have a name for it to show up in the nav bar
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: A place to share my thoughts (<a href="https://aprd.ir">Farsi Blog</a>)
 permalink: /blog/:year/:title/
