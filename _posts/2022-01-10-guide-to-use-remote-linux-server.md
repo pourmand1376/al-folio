@@ -98,6 +98,17 @@ pip install nvidia-htop
 nvidia-htop.py
 ```
 
+Usually, I use this command most of the time. So, I have a created an alias for it.
+
+```bash
+echo "alias nv ='nvidia-htop.py'" > ~/.profile
+
+# use this if you do not already have .profile in your .bashrc and .zshrc
+# this is very common
+echo "source ~/.profile" > ~/.bashrc
+echo "source ~/.profile" > ~/.zshrc
+```
+
 {% include figure.html path="assets/posts/remote_server/nvidia-htop.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## NVITop
