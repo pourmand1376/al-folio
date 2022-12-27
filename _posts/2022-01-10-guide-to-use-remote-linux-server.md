@@ -101,7 +101,7 @@ nvidia-htop.py
 Usually, I use this command most of the time. So, I have a created an alias for it.
 
 ```bash
-echo "alias nv ='nvidia-htop.py'" > ~/.profile
+echo "alias nv='nvidia-htop.py'" > ~/.profile
 
 # use this if you do not already have .profile in your .bashrc and .zshrc
 # this is very common
