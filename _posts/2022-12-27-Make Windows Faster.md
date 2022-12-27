@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Guide to setup your own jekyll website 
+title: Make Windows Faster
 date: 2022-12-27T00:25:00.000+00:00
 description: How to make windows faster
 comments: true
