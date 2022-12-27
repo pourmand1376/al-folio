@@ -16,13 +16,14 @@ To measure our progress and determine how much improvement we have made, we will
 
 {% include figure.html path="assets/posts/make-windows-faster/process-count.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-![[assets/posts/make-windows-faster/process-count.png]]
 
 It is unfortunate that Windows does not offer a central location to disable all unnecessary startup items at once. Instead, we must navigate to four different locations to disable all unnecessary items.
 
 ## 1. Disable Windows Startup 
 You can disable most items with an **Enabled** status here. However, I left some programs as enabled because I believe they are useful to have at startup.
-![[startup-apps.png]]
+
+{% include figure.html path="assets/posts/make-windows-faster/startup-apps.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 
 ## 2. Windows Run
 To access the startup programs that are not shown in the previous menu, press `Win+R` or type `Run` and then paste each of the following items one by one. From here, you can delete any shortcuts you do not want to run at startup.
@@ -33,7 +34,8 @@ shell:startup
 ```
 shell:common startup
 ```
-![[run-startup.png]]
+
+{% include figure.html path="assets/posts/make-windows-faster/run-startup.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ## 3. Registry
@@ -55,16 +57,17 @@ To access the Task Scheduler and disable unnecessary items, follow these steps:
 
 Note: It is important not to delete these items, as they may be recreated. Simply disabling them will prevent them from running.
 
-![[task-scheduler.png]]
+{% include figure.html path="assets/posts/make-windows-faster/task-scheduler.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 
 ## 5. Debloat Windows Tool
 To use the Windows Utility tool created by Chris Titus Tech, follow these steps:
 
 1.  Open your terminal and enter the following command:
 
-Copy code
-
-`irm christitus.com/win | iex`
+```
+irm christitus.com/win | iex
+```
 
 2.  This will open the [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil), which is a great tool that I personally love.
 
@@ -75,9 +78,9 @@ To access the Windows features and turn them on or off, follow these steps:
 
 1.  Go to the Run dialogue box and enter the following command:
 
-Copy code
-
-`appwiz.cpl`
+```
+appwiz.cpl
+```
 
 2.  This will open the Programs and Features window. From here, select the option to "Turn Windows features on or off."
 3.  Review the list of features and disable any that you do not need or use.
@@ -87,16 +90,16 @@ Note that the following steps will improve system performance by reducing the vi
 
 1.  Open the Run dialogue box and enter the following command:
 
-Copy code
-
-`sysdm.cpl ,3`
+```
+sysdm.cpl ,3
+```
 
 2.  This will open the System Properties window and automatically select the third tab, which is the Advanced tab.
 3.  Under the Performance section, click on the "Settings" button.
 4.  In the Performance Options window, you can choose the "Custom" mode and select only the visual effects that you want to keep. Personally, I recommend enabling the "Show thumbnails instead of icons" and "Smooth edges of screen fonts" options, as this can improve the performance of the system without significantly affecting appearance.
 
-![[system-properties.png]]
-![[performance-option.png]]
+{% include figure.html path="assets/posts/make-windows-faster/system-properties.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/posts/make-windows-faster/performance-option.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 ## Resources 
 - [Making Windows Faster without Tools](https://www.youtube.com/watch?v=GOz_foQcPcY)
 - [Before you continue to YouTube](https://www.youtube.com/channel/UCg6gPGh8HU2U01vaFCAsvmQ)
