@@ -7,7 +7,9 @@ comments: true
 tags: windows, os
 ---
 
-The credit for this post belongs to Chris Titus Tech, as I sourced much of the information from his YouTube channel. However, I wanted to compile the key points in one place for easy reference and to ensure that I wouldn't forget the important information.
+While there are many resources available on optimizing PC performance, I have found that some of them focus on less important or even incorrect details. I say the things that have actually worked for me.
+
+> The credit for this post mostly belongs to Chris Titus Tech, as I sourced much of the information from his YouTube channel. However, I wanted to compile the key points in one place for easy reference and to ensure that I wouldn't forget the important information.
 
 It is worth noting that Windows has multiple places for one thing, which can be confusing and goes against user experience (UX) and software design principles. For example, there are both the old Control Panel and the new Settings app, and the Programs and Features section is separate from the Apps & features section in the new design. This can be frustrating for users, but it seems that Microsoft is working on improving and consolidating these various locations in future updates.
 
