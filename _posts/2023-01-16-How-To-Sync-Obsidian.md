@@ -7,18 +7,42 @@ comments: true
 tags: obsidian
 ---
 
-I've tried a lot of tools for syncing my notes and they all have their issues. Whether it's Google Drive, Dropbox, or any other cloud sync service, they all seem to have their problems, especially when you're constantly editing the same files. But, after trying different methods, I've found that the best way to keep my notes in sync is by using `git`.
+# Introduction
+I've tried many tools and tutorials to sync my obsidian notes between android and windows. They all have the same problems:
+1. Some need subscription service (Obsidian Sync) which I'm not willing to pay
+2. Some can't handle editing the same file (Sync via GoogleDrive, Dropbox and ...)
+3. Others need complicated setup and maintanance. 
 
-Installing the obsidian-git plugin on desktop systems like Windows and Mac is a breeze. It works seamlessly and there's no additional setup required. If you're new to git, I recommend creating a new private GitHub repository to store your obsidian notes. Check out this link for more info: [GitHub - denolehov/obsidian-git: Backup your Obsidian.md vault with git](https://github.com/denolehov/obsidian-git)
+# My Solution
 
-The main issue I've found is when I want to sync my notes with my Android device. I don't want to constantly deal with git merge conflicts. The solution to this is automatic merging. I've looked into a few different options that use git to sync obsidian between Android and PC, but they all fall short because they don't include automatic merging. It's a pain to have to resolve conflicts all the time.
+## Initial Setup
+1. Create a Github or Gitlab Repository (Make sure it is `private`)
+2. Clone your repository to a place in your computer
+3. Open that folder as a vault in obsidian
+4. You can also move your current obsidian notes to this folder (in case you have any).
 
-There are two main files which need to be created at the root of your directory (where `.git` folder resides).
+## Sync Windows and Mac
+For windows and mac, you can just install `obsidian-git` plugin. Installing that would be a breeze. Just make sure to set automatic pull and push (I've set it to 5 minutes). 
+
+I've pinned these three commands since sometimes I want to instantly sync my changes. 
+Obsidian > Options > Command Pallete > Pinned Commands
+
+- Obsidian Git: Commit all changes
+- Obsidian Git: Push
+- Obsidian Git: Pull
+
+[GitHub - denolehov/obsidian-git: Backup your Obsidian.md vault with git](https://github.com/denolehov/obsidian-git)
+Also, here is the repo if you want to check it out. 
+
+## Automatic Merging
+Sometimes you may change the same file. I know it is rare but it is possible. We prevent conflict by two ways (gitignore and gitattributes).
+
+These files need to be created at the root of your directory (where `.git` folder resides).
 ```
 touch .gitignore
 touch .gitattributes
 ```
-First, you should add these lines to `.gitignore`:
+First, You should add these lines to `.gitignore`:
 ```
 .trash/
 .obsidian/workspace
@@ -31,10 +55,10 @@ This tells git to ignore certain files that are likely to cause conflicts, like 
 Next, you'll add the `.gitattributes` file and tell git how to handle merging for specific file types. For example, you can tell git to treat markdown files as regular text files and merge them accordingly:
 ```
 *.md merge=union
-*.json merge=ours
 ```
-What this does is it instructs git to merge markdown files as if they were plain text. This way, the only time you'll get conflicts is when you change the same line in both files, which is pretty unlikely. For json files, we're telling git to use 'ours' config when JSON file is edited, this is specifically for `obsidian-rtl` plugin configuration.
+What this does is it instructs git to merge markdown files as if they were plain text. This way, the only time you'll get conflicts is when you change the same line in both files, which is pretty unlikely.
 
+## Sync Android
 For this part, I used [this tutorial](https://gist.github.com/Makeshift/43c7ecb3f1c28a623ea4386552712114) for the most part: 
 To Use Git on Android:
 - First, you'll need to download and install the Termux app from the Google Play Store ([Termux – Apps on Google Play](https://play.google.com/store/apps/details?id=com.termux&hl=en_GB&gl=US)). Once you have it installed, open the app and run the following commands 
