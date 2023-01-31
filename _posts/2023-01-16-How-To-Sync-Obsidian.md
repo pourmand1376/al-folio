@@ -34,6 +34,12 @@ Obsidian > Options > Command Pallete > Pinned Commands
 [GitHub - denolehov/obsidian-git: Backup your Obsidian.md vault with git](https://github.com/denolehov/obsidian-git)
 Also, here is the repo if you want to check it out. 
 
+### Extra Option for windows users
+ Note that if you are using windows, you should also use this command to prevent path error on odd filenames ([+](https://stackoverflow.com/questions/63727594))
+```
+git config core.protectNTFS false
+```
+
 ## Automatic Merging
 Sometimes you may change the same file. I know it is rare but it is possible. We prevent conflict by two ways (gitignore and gitattributes).
 
