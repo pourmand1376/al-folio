@@ -21,9 +21,9 @@ This is an excellent tool for researchers, especially when searching for review 
 
 I have always wanted a tool to find related papers to the ones I am already reading. This one does that. So, you don't need to search for the state of the art papers using different keywords now and then.
 
-[Find Conferences, Journals, Workshops, Meetings, Symposiums, Seminars and other Events at Resurchify | Find Events Near Me!](https://www.resurchify.com/)
+[Find Conferences, Journals, Workshops, Meetings, Symposiums, Seminars](https://www.resurchify.com/)
 
-This one find important events as the name suggests. 
+This one find important events as the name suggests. This is a must know for researcher who want to submit their papers and attend on conferences and workshops and etc. 
 
 [MathPix](https://mathpix.com/)
 
