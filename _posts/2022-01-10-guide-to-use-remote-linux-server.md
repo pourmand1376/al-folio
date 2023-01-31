@@ -111,6 +111,8 @@ echo "source ~/.profile" >> ~/.zshrc
 
 {% include figure.html path="assets/posts/remote_server/nvidia-htop.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
+> `nvidia-htop` only shows the current status of GPU. It may change in a few seconds. To monitor GPU status regularly use `watch nvidia-htop.py`. This way you don't have to constantly type `nvidia-htop` over and over again. 
+
 ## NVITop
 
 This one is very similar with `nvidia-htop` but it shows more! 
