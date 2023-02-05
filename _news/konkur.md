@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2020-08-20 08:30:00-0400
-title: National University Exam
-inline: false
+title: I excelled on the National University Exam and earned the first place spot among all CE majors.
+inline: true
 ---
 
-To-Do
+
