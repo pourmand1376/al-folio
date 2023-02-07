@@ -2,8 +2,5 @@
     "origins": [
       "https://amirpourmand.ir"
     ],
-    "originsRegex": [
-      "http://localhost:[0-9]+"
-    ],
     "defaultCommentOrder": "oldest"
   }
