@@ -59,6 +59,12 @@ It paraphrases my sentences into better ones, and I found this one very intellig
 
 This one is pretty interesting too. It offers unlimited free paraphrasing, so I use this one more than Wordtune. 
 
+## Chatbots 
+
+[http://perplexity.ai](https://t.co/ut3wdOxstL)
+
+[https://chat.openai.com/chat](https://chat.openai.com/chat)
+
 ## Other Tools
 
 [TIME.IS](https://time.is/) 
