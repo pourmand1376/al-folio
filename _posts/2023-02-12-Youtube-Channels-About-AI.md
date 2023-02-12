@@ -12,7 +12,7 @@ Yannic is actually one of the brightest people I've ever met. He is knowledgeabl
 
 Here's a list of videos from him which I liked a lot:
 - [How I Read a Paper: Facebook's DETR (Video Tutorial) - YouTube](https://www.youtube.com/watch?v=Uumd2zOOz60): I recommend this one a lot. I've learned a lot from it. 
-- [Machine Learning PhD Survival Guide 2021 | Advice on Topic Selection, Papers, Conferences & more! - YouTube](https://www.youtube.com/watch?v=rHQPBqMULXo&list=PL1v8zpldgH3oNcr8es3ov4_4DF8K0Ps6-)
+- [Machine Learning PhD Survival Guide 2021 - Advice on Topic Selection, Papers, Conferences & more - YouTube](https://www.youtube.com/watch?v=rHQPBqMULXo&list=PL1v8zpldgH3oNcr8es3ov4_4DF8K0Ps6-)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Paper Explained) - YouTube](https://www.youtube.com/watch?v=TrdevFK_am4&t=419s)
 - [MLP-Mixer: An all-MLP Architecture for Vision (Machine Learning Research Paper Explained) - YouTube](https://www.youtube.com/watch?v=7K4Z8RqjWIk&t=1098s)
 
@@ -22,8 +22,8 @@ She is very good at NLP and Transformers. She explains the topics passionately, 
 
 Here's a list of videos from her which I liked:
 - [The Transformer neural network architecture EXPLAINED. “Attention is all you need” (NLP) - YouTube](https://www.youtube.com/watch?v=FWFA4DGuzSc&list=PLpZBeKTZRGPNdymdEsSSSod5YQ3Vu0sKY): This playlist is actually one of the best if you are starting with attention and transformers architecture. 
-- [UMAP explained | The best dimensionality reduction? - YouTube](https://www.youtube.com/watch?v=6BPl81wGGP8)
-- [Adversarial Machine Learning explained! | With examples. - YouTube](https://www.youtube.com/watch?v=YyTyWGUUhmo)
+- [UMAP explained - The best dimensionality reduction - YouTube](https://www.youtube.com/watch?v=6BPl81wGGP8)
+- [Adversarial Machine Learning explained - With examples. - YouTube](https://www.youtube.com/watch?v=YyTyWGUUhmo)
 
 ## [StatQuest with Josh Starmer](https://www.youtube.com/c/joshstarmer)
 
