@@ -53,7 +53,7 @@ Recommended stuff:
 
 Who doesn't know Andrew NG? 
 
-I this one of his great playlists of the one he explains about MLOps. It is a pretty new concept which everybody who works in industry or want to work should know. 
+I think one of his great playlists is the one that he explains about MLOps. It is a pretty new concept which everybody who works in industry or want to work should know. 
 
 [#1 Machine Learning Engineering for Production (MLOps) Specialization [Course 1, Week 1, Lesson 1] - YouTube](https://www.youtube.com/watch?v=NgWujOrCZFo&list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK)
 
