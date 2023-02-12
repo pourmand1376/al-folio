@@ -61,9 +61,8 @@ This one is pretty interesting too. It offers unlimited free paraphrasing, so I 
 
 ## Chatbots 
 
-[http://perplexity.ai](https://t.co/ut3wdOxstL)
-
-[https://chat.openai.com/chat](https://chat.openai.com/chat)
+- [Perplexity](https://www.perplexity.ai/)
+- [ChatGPT](https://chat.openai.com/chat)
 
 ## Other Tools
 
