@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Youtube Channels Which Talk about AI (2023)
+title: Youtube Channels Which Talk about AI
 date: 2023-02-12T00:00:00.000+03:30
 description: Here is a list of channels which I've found and used in the AI field.
 comments: true
