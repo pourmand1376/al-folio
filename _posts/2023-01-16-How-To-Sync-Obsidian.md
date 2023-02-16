@@ -14,6 +14,7 @@ I've tried many tools and tutorials to sync my obsidian notes between android an
 3. Others need complicated setup and maintanance. 
 
 # My Solution
+This solution takes about 30 minutes to setup. But, once it is finished, it workes perfectly. 
 
 ## Initial Setup
 1. Create a Github or Gitlab Repository (Make sure it is `private`)
@@ -86,7 +87,11 @@ Replace `<your_email>` and `<The name you want on your commits>` with your own i
 
 - Now you're ready to clone a repository. Use the following command:
 ```
+# go to the path in your shared folder
+cd cd /storage/emulated/0/shared/
+mkdir obsidian
 git clone <your repository_github_url>
+git config --global --add safe.directory <repo-path>
 ```
 For Authentication, you have two ways. Use [Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token), or use [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). I use the second as the first one is blocked in my country. 
 
@@ -103,7 +108,7 @@ Next, you'll need to add some lines of code to your `.profile` file. These lines
 ```bash
 function sync_obsidian
 {
-cd /storage/emulated/0/shared/obsidian-notes
+cd /storage/emulated/0/shared/obsidian/<your-repo-name>
 git add .
 git commit -m "Android Commit"
 git fetch
