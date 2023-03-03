@@ -44,6 +44,22 @@ You can also set `tmux` to open automatically by adding the following lines ([Re
     RemoteCommand tmux new -A -s <<your_tmux_session_name>>
 ```
 
+Normally, I create two ssh hosts with different names. First one connects normally to the server and the second one directly connects to a tmux session. An Example would be:
+
+```bash
+HOST company
+    HOSTNAME 21.23.18.21
+    USER pourmand
+    LOCALFORWARD 6006 localhost:6006
+    
+HOST company_a
+    HOSTNAME 21.23.18.21
+    USER pourmand
+    RequestTTY yes
+    RemoteCommand tmux new -A -s yolo
+    LOCALFORWARD 6006 localhost:6006
+```
+
 ## Tmux
 
 Then you can run your commands on the server, e.g.:
