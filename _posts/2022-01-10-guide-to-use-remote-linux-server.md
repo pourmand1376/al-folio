@@ -4,25 +4,54 @@ title: Guide for using remote server (linux) for a data scientist!
 date: 2022-05-20T23:00:00.000+00:00
 description: This is a guide for people who want to use a remote linux server for data science stuff.
 comments: true
-tags: linux
+tags: ['linux','data_science','ssh']
 ---
 
-Well, you have got a server (most probably linux) which you want to run your tasks on it. How should you do that?
-Here I list all the challenges I've encountered.
+Well, you have got a server (most probably linux) which you want to run your tasks on it. How should you do that and What technologies you should adopt?
 
+### Windows Users
+This tutorial is written with bash (or zsh) in mind. So, If you are a mac or linux user, your default shell would be enough and you can go ahead with the rest of tutorial.
+
+However, Windows users need to follow [this tutorial](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview) to install `WSL` and then `Ubuntu` to get a good `bash`. After that you would install [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and you are good to follow this tutorial.
+
+> Note: Some people use putty to connect to their linux box. I do not like it and I do not recommend it. That's very old school. 
 
 ## SSH
-
 First of all, you know that you should connect to server via `SSH`: (1914 is just a dummpy number for port. Just select something that linux hasn't used)
 
     ssh -L 1914:localhost:1914 pourmand@ServerAddress
 
 After that you will need to enter your password for the user `pourmand` in the server. 
 
-> You may also want the server to **know** your computer i.e. it does not ask for password every time you want to connect to it.
-> If that's the case, I suggest that you read [this](https://linuxhandbook.com/add-ssh-public-key-to-server/) tutorial. To put it in the nutshell, you sould copy your public ssh key to the server using `ssh-copy-id` command. 
+### Connecting Without Password
 
-In addition, you can also define your ssh servers in a file called `config`. This way you can connect to the server just by typing:
+You may want the server to **know** your computer i.e. it does not ask for password every time you want to connect to it.
+
+First, create an ssh key on your machine: 
+```shell
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+Second, you should add that ssh key to your ssh agent: 
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519 # change this filename if anything else
+```
+
+Third, you should add your **public key** to your server, this way the server will know you! 
+
+```
+ssh-copy-id -i ~/.ssh/id_ed25519.pub username@serverip
+```
+
+You are done for this part. The server would not ask for your password ever again. 
+
+If you want to know more deeply about how and why these commands work, I suggest that you read [this](https://linuxhandbook.com/add-ssh-public-key-to-server/) and [this](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) .
+
+### Connecting with Only Server Name
+
+In addition, you can also define your ssh servers in a file called `config`. This way you can forget the long command I told you at the beginning and connect to the server just by typing:
 
 ```bash
 ssh my_server
