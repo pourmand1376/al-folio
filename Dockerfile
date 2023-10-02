@@ -19,7 +19,7 @@ ENV LANG=en_US.UTF-8 \
     LC_ALL=en_US.UTF-8 \
     JEKYLL_ENV=production 
 
-RUN python3 -m pip install jupyter --break-system-packages --no-cache-dir
+RUN python3 -m pip install jupyter --break-system-packages
 
 # install jekyll and dependencies
 RUN gem install jekyll bundler
