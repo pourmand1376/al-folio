@@ -1,14 +1,15 @@
 FROM ubuntu:latest
+ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
-    locales \ 
+    locales \
     imagemagick \
     ruby-full \
     build-essential \
     zlib1g-dev \
-    epiphany jupyter-notebook && \
+    jupyter-nbconvert && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
     
 RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
