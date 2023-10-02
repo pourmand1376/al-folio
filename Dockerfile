@@ -1,4 +1,4 @@
-FROM bitnami/minideb:latest
+FROM ubuntu:latest
 
 Label MAINTAINER Amir Pourmand
 
@@ -8,7 +8,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     ruby-full \
     build-essential \
     zlib1g-dev \
-    python3-pip && rm -rf /var/lib/apt/lists/*
+    python3-pip && apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
     
 
 RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
